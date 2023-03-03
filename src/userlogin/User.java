@@ -1,5 +1,7 @@
 package userlogin;
 
+import java.util.Random;
+
 /****************************
  * @project zjhjavawork
  * @package userlogin
@@ -16,6 +18,28 @@ public class User {
     private String gender;
     private int age;
 
+
+
+    String[] bface = {"风流倜傥","英俊潇洒","器宇轩昂","面目狰狞"};
+    String[] gface = {"貌美如花","沉鱼落雁","亭亭玉立","惨不忍睹"};
+
+    public String getBface() {
+        Random r = new Random();
+        int i = r.nextInt(3);
+        return bface[i];
+    }
+
+    public void setBface(String[] bface) {
+        this.bface = bface;
+    }
+
+    public String[] getGface() {
+        return gface;
+    }
+
+    public void setGface(String[] gface) {
+        this.gface = gface;
+    }
 
     public User() {
     }
