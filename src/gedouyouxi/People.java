@@ -47,7 +47,6 @@ public class People {
         }
         else{
             this.face=gface[i];
-
         }
         
         this.face = face;
