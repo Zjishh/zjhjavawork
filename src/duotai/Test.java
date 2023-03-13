@@ -23,13 +23,14 @@ public class Test {
         admin.setAge(22);
 
 
-reg(teacher);
+        reg(teacher);
         reg(student);
         reg(admin);
 
 
     }
-    public  static void reg(Person p){
+
+    public static void reg(Person p) {
         p.show();
     }
 }
