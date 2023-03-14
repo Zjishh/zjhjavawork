@@ -12,6 +12,7 @@ public class Animal {
     private String age;
     private String color;
 
+
     public Animal() {
     }
 
