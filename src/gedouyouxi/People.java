@@ -14,6 +14,7 @@ public class People {
     private String name;
     private int blood;
     private  int inn ;
+    private String ints;
 
     public int getSex() {
         return sex;
