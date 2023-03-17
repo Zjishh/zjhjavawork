@@ -13,6 +13,7 @@ import java.util.Random;
 public class People {
     private String name;
     private int blood;
+    private  int inn ;
 
     public int getSex() {
         return sex;
