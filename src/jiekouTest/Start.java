@@ -11,6 +11,7 @@ package jiekouTest;
 public class Start {
     public static void main(String[] args) {
         Pingpang pingpang = new Pingpang("刘诗雯",22);
+        //666
         System.out.println(pingpang.getName()+"年龄"+pingpang.getAge());
         pingpang.speak();
         pingpang.study();
