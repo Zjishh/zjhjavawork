@@ -69,6 +69,8 @@ public class RegexTest1 {
 
        while ((neirong = bufferedReader.readLine())!= null ){
            strb.append(neirong);
+
+
        }
         System.out.println(strb);
 
