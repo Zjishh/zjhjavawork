@@ -58,7 +58,7 @@ public class RegexTest1 {
                 "狄莉珍\t230822197201256034\t45\t男\t黑龙江省. 佳木斯市. 桦南县";
 
 
-        URL url = new URL("http://list.chineseidcard.com/sfz/150000.html");
+        URL url = new URL("https://cfhd.cf.qq.com");
 
         URLConnection urlConnection = url.openConnection();
 
