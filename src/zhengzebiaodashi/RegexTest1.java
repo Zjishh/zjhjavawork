@@ -74,7 +74,7 @@ public class RegexTest1 {
        }
         System.out.println(strb);
 
-
+//6666
 
         Pattern compile = Pattern.compile("([1-9]\\d{15}[13579][0-9Xx])|([男])");
         Matcher m = compile.matcher(s);
