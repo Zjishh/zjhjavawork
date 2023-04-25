@@ -21,7 +21,7 @@ public class RegexTest1 {
     public static void main(String[] args) throws IOException {
         String QQ ="0385802188";
 
-//QQQQQQQQQQQQQQ111111
+//QQQQQQQQQQQQQQ11111112212
         //SADASDDSAD
 
         System.out.println(QQ.matches("[1-9]\\d{5,19}"));
