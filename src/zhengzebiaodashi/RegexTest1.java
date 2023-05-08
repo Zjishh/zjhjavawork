@@ -33,7 +33,6 @@ public class RegexTest1 {
 
         System.out.println(shenfenzheng.matches(""));
 
-
         String s = "身份证号大全\n" +
                 " 全国身份证号码和真实姓名大全示例   \n" +
                 "身份证号码查询\t\n" +
