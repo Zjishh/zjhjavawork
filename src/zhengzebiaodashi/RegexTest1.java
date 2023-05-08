@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
  * @className RegexTest1
  * @author Zjiah
  * @date 2023/4/21 19:59
- * @Description:   *
+ * @Description:  java *
  ****************************/
 public class RegexTest1 {
     public static void main(String[] args) throws IOException {
