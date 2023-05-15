@@ -3,6 +3,7 @@ package ListTest;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.function.Consumer;
 
 /****************************
  * @project zjhjavawork
@@ -69,9 +70,19 @@ public class Test1 {
             //4.next方法的两件事情：获取元素并移动指针
             String str = it.next();
             System.out.println(str);
+            System.out.println(6666);
         }
 
+        for (String s : colll) {
+            System.out.println(s);
+        }
+
+        //s表示每个数据
+        colll.forEach(s -> System.out.println(s));
+        colll.forEach(s -> System.out.println(s));
     }
+
+
 
 
 }
