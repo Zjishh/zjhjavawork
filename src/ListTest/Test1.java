@@ -14,7 +14,7 @@ import java.util.Iterator;
  ****************************/
 public class Test1 {
     public static void main(String[] args) {
-        //1.创建集合的对象333
+        //1.创建集合的对象333任务
         Collection<Student> coll = new ArrayList<>();
 
 
