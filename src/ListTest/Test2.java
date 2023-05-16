@@ -13,7 +13,7 @@ import java.util.List;
  *******************************/
 public class Test2 {
     public static void main(String[] args) {
-
+//dsadsad
         List<String> list = new ArrayList<>();
         list.add("A");
         list.add("B");
@@ -23,7 +23,6 @@ public class Test2 {
         list.add(1,"wqe");
         String remove = list.remove(1);
         System.out.println(remove);
-
         System.out.println(list);
 
     }
