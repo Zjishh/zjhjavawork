@@ -1,5 +1,7 @@
 package ArrayListtest;
 
+import java.util.Arrays;
+
 /****************************
  * @project zjhjavawork
  * @package ArrayListtest
@@ -11,6 +13,11 @@ package ArrayListtest;
 public class MyArrayList<E> {
     Object[] obj  = new Object[10];
     int size;
+
+    @Override
+    public String toString() {
+        return Arrays.toString(obj);
+    }
 
     public boolean add(E e){
         obj[size] = e;
